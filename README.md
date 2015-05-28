@@ -16,7 +16,7 @@ This project involves exploring the [![](assets/noaa_logo.png)](http://www.noaa.
 
 The data for this assignment come in the form of a comma-separated-value file, compressed via the bzip2 algorithm to reduce its size. You can download the file from the course web site:  
 
-* [Storm Data](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2) [47Mb]  
+* [Storm Data](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2) [47Mb, bzipped]  
 
 There is also some documentation of the database available. Here you will find how some of the variables are constructed/defined.  
 
@@ -39,3 +39,10 @@ Your data analysis must address the following questions.  Across the United Stat
 [Event types are indicated in the EVTYPE variable.]  
 
 Consider writing your report as if it were to be read by a government or municipal manager, who might be responsible for preparing for severe weather events, and will need to prioritize resources for different types of events. However, there is no need to make any specific recommendations in your report.  
+
+***
+
+_This project was created with_ [Project Template](http://projecttemplate.net/index.html), _a system for automating the thoughtless parts of a data analysis project._  
+
+_Note: I am also trying out the project management feature of RStudio._
+
