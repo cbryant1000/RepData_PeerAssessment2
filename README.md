@@ -44,5 +44,9 @@ Consider writing your report as if it were to be read by a government or municip
 
 _This project was created with_ [Project Template](http://projecttemplate.net/index.html), _a system for automating the thoughtless parts of a data analysis project._  
 
-_Note: I am also trying out the project management feature of [RStudio](http://www.rstudio.com/)._
+- That is the reason for the complicated directory structure.  See the [ProjectTemplate.md](https://github.com/cbryant1000/RepData_PeerAssessment2/blob/master/ProjectTemplate.md) file for more information, and a link to the __Project Template__ web site.
+
+__Note:__ _I am also trying out the project management feature of [RStudio](http://www.rstudio.com/)._  
+
+- That is the reason for the .Rproj file. 
 
