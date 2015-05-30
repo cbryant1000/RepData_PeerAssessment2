@@ -1,0 +1,25 @@
+---
+title: "Population Health and Economic Impact of Atmospheric Storms in the United States (1950-2011)"
+author: "Cliff Bryant"
+date: "May 30, 2015"
+output: html_document
+---
+
+__Synopsis:__ This report analyzes National Oceanographic and Atmospheric Administration _Storm Data_ for population health effects and economic consequences across the United States.  The data were collected in between 1950 and November 2011.  
+
+## Data Processing
+
+### Population Health Effects
+
+### Economic Consequences
+The primary variable of economic interest is the amount of the property damages (in US dollars) that were caused by storm activity.  Property damage values are contained in a pair of variables (PROPDMG, PROPDMGEXP) in the original data set.  
+
+1. The values in the two property damage columns were combined into a single _propertyDamage_ value column measures in dollars.  This new column was then added to the original data set.
+2. It was determined that there are `r (902297 - 239174)` observations with zero ($0) dollars of property data.  Since property damage is the key economic variable of interest, storm events with $0 in property damage are not of interest.  This resulted in a 73% reduction in the size of the data set under consideration.
+
+## Results
+
+### Population Health Effects
+
+### Economic Consequences
+
